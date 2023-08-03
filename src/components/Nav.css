@@ -1,0 +1,40 @@
+nav {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  text-align: center;
+}
+
+nav ul{
+  list-style: none;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+nav li {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+nav h1 {
+  padding-left: 37px;
+  text-align: center;
+}
+
+@media (max-width: 786px) {
+  nav {
+    grid-template-columns: 100%;
+  }
+
+  nav ul {
+    grid-template-columns: 1fr;
+  }
+
+  nav li {
+    text-align: center;
+    padding: 8px;
+  }
+
+  nav h1 {
+    text-align: center;
+  }
+}
