@@ -11,7 +11,7 @@ import { useCollectionData } from 'react-firebase-hooks/firestore';
 
 firebase.initializeApp(firebaseConfig);
 const auth = firebase.auth();
-const firestore = firebase.firestore();
+const db = firebase.firestore();
 
 const Blog = () => {
   const [user] = useAuthState(auth);
@@ -52,7 +52,7 @@ function SignOut() {
 
 function BlogPosts() {
   const dummy = useRef();
-  const postsRef = firestore.collection('posts');
+  const postsRef = db.collection('posts');
   const query = postsRef.orderBy('createdAt').limit(25);
   const [posts] = useCollectionData(query, { idField: 'id'});
   const [formValue, setFormValue] = useState('');
@@ -64,7 +64,7 @@ function BlogPosts() {
       text: formValue,
       createdAt: firebase.firestore.FieldValue.serverTimestamp(),
       uid: uid,
-      photoURL: photoURL
+      photoURL: photoURL,
     });
     setFormValue('');
     dummy.current.scrollIntoView({ behavior: 'smooth' });
@@ -74,7 +74,7 @@ function BlogPosts() {
     return (
       <form id='post-form' onSubmit={createPost}>
         <input id='post-text-input' value={formValue} onChange={(e) => setFormValue(e.target.value)} placeholder='say something!'/>
-        <button type='submit' diabled={!formValue}>Submit Post</button>
+        <button type='submit' disabled={!formValue}>Submit Post</button>
       </form>
     );
   }
@@ -91,12 +91,13 @@ function BlogPosts() {
 }
 
 function Post(props) {
-  const { text, uid, photoURL } = props.content;
+  const { text, uid, createdAt, photoURL } = props.content;
   const messageClass = uid === auth.currentUser.uid ? 'submitted' : 'posted';
 
   return (
     <div id={'message '+messageClass}>
       <img alt='' src={photoURL || 'ttps://api.adorable.io/avatars/23/abott@adorable.png'} />
+      <p>{createdAt && createdAt.toDate().toLocaleString()}</p>
       <p>{text}</p>
     </div>
   );
