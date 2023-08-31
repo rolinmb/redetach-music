@@ -1,8 +1,18 @@
 #about-wrap {
   background-image: url("./odnodi_fx1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 #about-content-wrap {
   background-color: white;
-  width: 33%;
+  padding: 20px;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  #about-content-wrap {
+    width: 33%;
+  }
 }
