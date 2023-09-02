@@ -23,3 +23,18 @@
   height: 315px;
   margin: 10px 0;
 }
+
+@media (max-width: 768px) {
+  #yt-playlists-wrap {
+    background-size: cover;
+  }
+
+  #iframes-wrap {
+    align-items: flex-start;
+  }
+
+  #iframes-wrap iframe {
+    width: 100%;
+    height: auto;
+  }
+}
