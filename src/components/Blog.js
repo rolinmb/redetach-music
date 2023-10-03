@@ -65,6 +65,7 @@ function BlogPosts() {
       createdAt: firebase.firestore.FieldValue.serverTimestamp(),
       uid: uid,
       photoURL: photoURL,
+      likes: 0,
     });
     setFormValue('');
     dummy.current.scrollIntoView({ behavior: 'smooth' });
@@ -79,28 +80,43 @@ function BlogPosts() {
     );
   }
 
+  function Post(props) {
+    const { text, uid, createdAt, photoURL, likes } = props.content;
+    const [curLikes, setCurLikes] = useState(likes);
+    const messageClass = uid === auth.currentUser.uid ? 'submitted' : 'posted';
+    const incrementLikes = async(e) => {
+      const postRef = db.collection('posts').doc(props.key);
+      try {
+        const doc = await postRef.get();
+        if (doc.exists) {
+          const currentLikes = doc.data().likes;
+          setCurLikes(currentLikes + 1);
+          await postRef.update({likes: currentLikes + 1});
+        }
+      } catch (error) {
+        console.error("Error incrementing likes:", error);
+      }
+    }
+    return (
+      <div id={'message '+messageClass}>
+        <img alt='' src={photoURL || 'ttps://api.adorable.io/avatars/23/abott@adorable.png'} />
+        <p>{createdAt && createdAt.toDate().toLocaleString()}</p>
+        <p>{text}</p>
+        {/*<p>Likes: {curLikes}</p>
+        <button onClick={e => incrementLikes(e)}>👍</button>*/}
+      </div>
+    );
+  }
+
   return (
     <div id='posts-wrap'>
       <div id='live-posts-wrap'>
-        {posts && posts.map(post => <Post keys={post.id} content={post}/>)}
+        {posts && posts.map((post) => <Post key={post.id} content={post} />)}
         <span ref={dummy}></span>
       </div>
-      {auth.currentUser && (auth.currentUser.email === 'rmbmusicmgmt@gmail.com') ? <PostForm /> : <div id='cant-post'>Srry u cant post</div>}
+      {auth.currentUser && (auth.currentUser.email === 'rmbmusicmgmt@gmail.com') ? <PostForm /> : <></>}
     </div>
   ); 
-}
-
-function Post(props) {
-  const { text, uid, createdAt, photoURL } = props.content;
-  const messageClass = uid === auth.currentUser.uid ? 'submitted' : 'posted';
-
-  return (
-    <div id={'message '+messageClass}>
-      <img alt='' src={photoURL || 'ttps://api.adorable.io/avatars/23/abott@adorable.png'} />
-      <p>{createdAt && createdAt.toDate().toLocaleString()}</p>
-      <p>{text}</p>
-    </div>
-  );
 }
 
 export default Blog;
