@@ -1,12 +1,12 @@
 import './Blog.css';
-import React, { useRef, useState } from 'react';
+import React/*, { useRef, useState }*/ from 'react';
 import { firebaseConfig } from '../fbase';
 
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/firestore';
 import 'firebase/compat/auth';
 
-import { useAuthState } from 'react-firebase-hooks/auth';
+//import { useAuthState } from 'react-firebase-hooks/auth';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
 
 firebase.initializeApp(firebaseConfig);
@@ -14,21 +14,21 @@ const auth = firebase.auth();
 const db = firebase.firestore();
 
 const Blog = () => {
-  const [user] = useAuthState(auth);
-
+  //const [user] = useAuthState(auth);
   return (
     <div id='blog-wrap'>
       <div id='blog-header-wrap'>
         <h3>re detach blog</h3>
-        <SignOut />
+        {/*<SignOut />*/}
       </div>
       <div id='blog-body-wrap'>
-        {user ? <BlogPosts /> : <SignIn/>}
+        {/*user ? <BlogPosts /> : <SignIn/>*/}
+        <BlogPosts />
       </div>
     </div>
   );
 }
-
+/*
 function SignIn() {
   const signInWithGoogle = () => {
     const provider = new firebase.auth.GoogleAuthProvider();
@@ -49,14 +49,14 @@ function SignOut() {
     </div>
   );
 }
-
+*/
 function BlogPosts() {
-  const dummy = useRef();
+  //const dummy = useRef();
   const postsRef = db.collection('posts');
   const query = postsRef.orderBy('createdAt').limit(25);
   const [posts] = useCollectionData(query, { idField: 'id'});
-  const [formValue, setFormValue] = useState('');
-
+  //const [formValue, setFormValue] = useState('');
+  /*
   const createPost = async(e) => {
     e.preventDefault();
     const { uid, photoURL } = auth.currentUser;
@@ -70,7 +70,7 @@ function BlogPosts() {
     setFormValue('');
     dummy.current.scrollIntoView({ behavior: 'smooth' });
   }
-
+  
   function PostForm() {
     return (
       <form id='post-form' onSubmit={createPost}>
@@ -79,31 +79,15 @@ function BlogPosts() {
       </form>
     );
   }
-
+  */
   function Post(props) {
-    const { text, uid, createdAt, photoURL, likes } = props.content;
-    const [curLikes, setCurLikes] = useState(likes);
+    const { text, uid, createdAt /*, photoURL*/ } = props.content;
     const messageClass = uid === auth.currentUser.uid ? 'submitted' : 'posted';
-    const incrementLikes = async(e) => {
-      const postRef = db.collection('posts').doc(props.key);
-      try {
-        const doc = await postRef.get();
-        if (doc.exists) {
-          const currentLikes = doc.data().likes;
-          setCurLikes(currentLikes + 1);
-          await postRef.update({likes: currentLikes + 1});
-        }
-      } catch (error) {
-        console.error("Error incrementing likes:", error);
-      }
-    }
     return (
       <div id={'message '+messageClass}>
-        <img alt='' src={photoURL || 'ttps://api.adorable.io/avatars/23/abott@adorable.png'} />
+        {/*<img alt='' src={photoURL || 'ttps://api.adorable.io/avatars/23/abott@adorable.png'} />*/}
         <p>{createdAt && createdAt.toDate().toLocaleString()}</p>
         <p>{text}</p>
-        {/*<p>Likes: {curLikes}</p>
-        <button onClick={e => incrementLikes(e)}>👍</button>*/}
       </div>
     );
   }
@@ -112,9 +96,9 @@ function BlogPosts() {
     <div id='posts-wrap'>
       <div id='live-posts-wrap'>
         {posts && posts.map((post) => <Post key={post.id} content={post} />)}
-        <span ref={dummy}></span>
+        {/*<span ref={dummy}></span>*/}
       </div>
-      {auth.currentUser && (auth.currentUser.email === 'rmbmusicmgmt@gmail.com') ? <PostForm /> : <></>}
+      {/*auth.currentUser && (auth.currentUser.email === 'rmbmusicmgmt@gmail.com') ? <PostForm /> : <></>*/}
     </div>
   ); 
 }
