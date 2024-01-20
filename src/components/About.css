@@ -11,8 +11,13 @@
   width: 100%;
 }
 
+#about-media-list {
+  list-style: none;
+  padding: 1px;
+}
+
 @media (min-width: 768px) {
   #about-content-wrap {
-    width: 33%;
+    width: 32%;
   }
 }

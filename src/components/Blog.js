@@ -1,5 +1,5 @@
 import './Blog.css';
-import React/*, { useRef, useState }*/ from 'react';
+import React, { /*useRef, useState*/ } from 'react';
 import { firebaseConfig } from '../fbase';
 
 import firebase from 'firebase/compat/app';
@@ -10,7 +10,7 @@ import 'firebase/compat/auth';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
 
 firebase.initializeApp(firebaseConfig);
-const auth = firebase.auth();
+//const auth = firebase.auth();
 const db = firebase.firestore();
 
 const Blog = () => {
@@ -28,8 +28,8 @@ const Blog = () => {
     </div>
   );
 }
-/*
-function SignIn() {
+
+/*function SignIn() {
   const signInWithGoogle = () => {
     const provider = new firebase.auth.GoogleAuthProvider();
     auth.signInWithPopup(provider);
@@ -48,16 +48,16 @@ function SignOut() {
       <button id='signout-btn' onClick={() => auth.signOut()}>Sign Out</button>
     </div>
   );
-}
-*/
+}*/
+
 function BlogPosts() {
   //const dummy = useRef();
   const postsRef = db.collection('posts');
   const query = postsRef.orderBy('createdAt').limit(25);
   const [posts] = useCollectionData(query, { idField: 'id'});
   //const [formValue, setFormValue] = useState('');
-  /*
-  const createPost = async(e) => {
+  
+  /*const createPost = async(e) => {
     e.preventDefault();
     const { uid, photoURL } = auth.currentUser;
     await postsRef.add({
@@ -78,14 +78,14 @@ function BlogPosts() {
         <button type='submit' disabled={!formValue}>Submit Post</button>
       </form>
     );
-  }
-  */
+  }*/
+  
   function Post(props) {
-    const { text, uid, createdAt /*, photoURL*/ } = props.content;
-    const messageClass = uid === auth.currentUser.uid ? 'submitted' : 'posted';
+    const { text, uid, createdAt, photoURL } = props.content;
+    //const messageClass = uid === auth.currentUser.uid ? 'submitted' : 'posted';
     return (
-      <div id={'message '+messageClass}>
-        {/*<img alt='' src={photoURL || 'ttps://api.adorable.io/avatars/23/abott@adorable.png'} />*/}
+      <div id={/*'message '+messageClass*/uid}>
+        {<img alt='' src={photoURL || 'ttps://api.adorable.io/avatars/23/abott@adorable.png'} />}
         <p>{createdAt && createdAt.toDate().toLocaleString()}</p>
         <p>{text}</p>
       </div>
