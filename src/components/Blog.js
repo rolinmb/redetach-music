@@ -1,5 +1,5 @@
 import './Blog.css';
-import React, { /*useRef, useState*/ } from 'react';
+import React, { useRef, useState } from 'react';
 import { firebaseConfig } from '../fbase';
 
 import firebase from 'firebase/compat/app';
@@ -51,7 +51,7 @@ function SignOut() {
 }*/
 
 function BlogPosts() {
-  //const dummy = useRef();
+  const dummy = useRef();
   const postsRef = db.collection('posts');
   const query = postsRef.orderBy('createdAt').limit(25);
   const [posts] = useCollectionData(query, { idField: 'id'});
@@ -59,7 +59,7 @@ function BlogPosts() {
   
   /*const createPost = async(e) => {
     e.preventDefault();
-    const { uid, photoURL } = auth.currentUser;
+    //const { uid, photoURL } = auth.currentUser;
     await postsRef.add({
       text: formValue,
       createdAt: firebase.firestore.FieldValue.serverTimestamp(),
@@ -81,11 +81,11 @@ function BlogPosts() {
   }*/
   
   function Post(props) {
-    const { text, uid, createdAt, photoURL } = props.content;
+    const { text, uid, createdAt/*, photoURL*/ } = props.content;
     //const messageClass = uid === auth.currentUser.uid ? 'submitted' : 'posted';
     return (
       <div id={/*'message '+messageClass*/uid}>
-        {<img alt='' src={photoURL || 'ttps://api.adorable.io/avatars/23/abott@adorable.png'} />}
+        {<img alt='' src={/*photoURL || */'ttps://api.adorable.io/avatars/23/abott@adorable.png'} />}
         <p>{createdAt && createdAt.toDate().toLocaleString()}</p>
         <p>{text}</p>
       </div>
@@ -96,7 +96,7 @@ function BlogPosts() {
     <div id='posts-wrap'>
       <div id='live-posts-wrap'>
         {posts && posts.map((post) => <Post key={post.id} content={post} />)}
-        {/*<span ref={dummy}></span>*/}
+        {<span ref={dummy}></span>}
       </div>
       {/*auth.currentUser && (auth.currentUser.email === 'rmbmusicmgmt@gmail.com') ? <PostForm /> : <></>*/}
     </div>
