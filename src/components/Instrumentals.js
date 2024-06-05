@@ -6,6 +6,8 @@ const Instrumentals = () => {
     <div id='yt-playlists-wrap' className='page-wrap'>
       <h2>instrumental EPs / music videos</h2>
       <div id='iframes-wrap'>
+        <h4>cognitive dissonance // uploaded 6/5/2024</h4>
+        <iframe src="https://www.youtube.com/embed/9qhxvALfs78?si=kjVL4aI2B9QQ-rQ9" title="cognitive dissonance" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <h4>get what you deserve // uploaded 2/4/2024</h4>
         <iframe src="https://www.youtube.com/embed/2Ek_HMUlctU" title="get what you deserve" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <h4>redetach remixes set 1 // uploaded 9/28/2023</h4>
