@@ -1,6 +1,6 @@
 import { initializeApp } from 'firebase/app';
-import { getAuth, signInWithEmailAndPassword, signOut } from 'firebase/auth';
-import { addDoc, collection, getDocs, getFirestore } from 'firebase/firestore';
+//import { getAuth, signInWithEmailAndPassword, signOut } from 'firebase/auth';
+//import { addDoc, collection, getDocs, getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
   apiKey: "_",
@@ -11,8 +11,8 @@ const firebaseConfig = {
   appId: "_"
 };
 
-const app = initializeApp(firebaseConfig);
-const auth = getAuth(app);
+/*const app = */initializeApp(firebaseConfig);
+/*const auth = getAuth(app);
 const db = getFirestore(app);
 
 const logInWithEmailAndPassword = async (email, password) => {
@@ -73,4 +73,4 @@ const fetchPosts = async () => {
   return snapshot;
 }
 
-export { firebaseConfig, auth, db, createNewPost, fetchPosts, logInWithEmailAndPassword, logOut };
+export { firebaseConfig, auth, db, createNewPost, fetchPosts, logInWithEmailAndPassword, logOut };*/

@@ -23,9 +23,7 @@ yarn-error.log*
 /.firebase
 
 /src/fbase.js
+/src/components/img
 
-/src/components/noisy1.png
-/src/components/trippy_v3_7.png
-/src/components/trippy_v4_5.png
-/src/components/odnodi_fx1.png
-/src/components/trippy_18_20_and.png
+public/trial1_18.ico
+public/logo192.png
