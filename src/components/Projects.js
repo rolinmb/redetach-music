@@ -1,11 +1,13 @@
-import './Instrumentals.css';
+import './projectss.css';
 import React from 'react';
 
-const Instrumentals = () => {
+const Projects = () => {
   return (
     <div id='yt-playlists-wrap' className='page-wrap'>
-      <h2>instrumental EPs / music videos</h2>
+      <h2>music projects on youtube</h2>
       <div id='iframes-wrap'>
+        <h4>um (MOMS BASEMENT SET) // uploaded 11/7/2024</h4>
+        <iframe src="https://www.youtube.com/embed/bhZl2r4NbNQ?si=X8OUVWnLp16h2Mw4" title="um" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <h4>defense mechanism // uploaded 10/17/2024</h4>
         <iframe src="https://www.youtube.com/embed/lL0nKe9KTOE?si=fjk5PuYeh57bTRE3" title="defense mechanism" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <h4>cognitive dissonance // uploaded 6/5/2024</h4>
@@ -35,4 +37,4 @@ const Instrumentals = () => {
   )
 }
 
-export default Instrumentals;
+export default Projects;
