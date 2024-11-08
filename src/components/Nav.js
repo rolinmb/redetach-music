@@ -10,6 +10,7 @@ const Nav = () => {
         <li className='nav-link' key='projectsnav'><Link to='/projects'>Projects</Link></li>
         <li className='nav-link' key='aboutnav'><Link to='/about'>About</Link></li>
         <li className='nav-link' key='blognav'><Link to='/blog'>Blog</Link></li>
+        <li className='nav-link' key='showsnav'><Link to='/shows'>Shows</Link></li>
       </ul>
       <h1>@re_detach</h1>
     </nav>
