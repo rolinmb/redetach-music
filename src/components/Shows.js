@@ -4,7 +4,7 @@ import React from 'react';
 const Shows = () => {
   return (
     <div id="shows-wrap" className='page-wrap'>
-      <p>catch me at charli's shows innafew weeks</p>
+      <p><a href='https://www.charlixcx.com/'>catch me at charli's shows innafew weeks</a></p>
     </div>
   );
 }
