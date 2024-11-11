@@ -12,6 +12,7 @@ const Blog = () => {
         <p>11/8/2024 :: Dear charli, I keep thinking about how I thought I saw your face and your mother a few times in Chicago yesterday. But I am sad I never did anything about it. You're so fucking pretty. I'm not going to London until you have your shows; that means we have a few weeks to get to know eachother in person I hope.</p>
         <p>11/9/2024 :: yes charli xcx and i are married, and yes i would still dance with george</p>
         <p>11/10/2024 :: just give me the eta</p>
+        <p>11/11/2024 :: its already a good week</p>
       </div>
     </div>
   );
