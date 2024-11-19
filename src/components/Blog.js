@@ -9,6 +9,7 @@ const Blog = () => {
       </div>
       <div id='blog-body-wrap'>
         <p>11/18/2024 :: rubber pencils suck, iykyk, lgtbrq charli i know the typa worq, iaintgoinanywhere</p>
+        <p>11/19/2024 :: demons tryna get to me; need charli's angels to take me by tha hand so we can get this bred</p>
       </div>
     </div>
   );
