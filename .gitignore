@@ -2,6 +2,7 @@
 /node_modules
 /.pnp
 .pnp.js
+pacakage-lock.json
 
 # testing
 /coverage
@@ -25,5 +26,5 @@ yarn-error.log*
 /src/fbase.js
 /src/components/img
 
-public/trial1_18.ico
-public/logo192.png
+/public/trial1_18.ico
+/public/logo192.png
