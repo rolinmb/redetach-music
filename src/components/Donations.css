@@ -1,0 +1,32 @@
+.page-wrap {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  #donations-wrap {
+    text-align: center;
+  }
+  
+  .donation-option {
+    margin: 20px 0;
+  }
+  
+  .donation-option h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .donation-option p {
+    margin: 10px 0;
+  }
+  
+  #donations-address-wrap {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  #donations-address-wrap .donation-option {
+    width: 250px;
+  }
+  
