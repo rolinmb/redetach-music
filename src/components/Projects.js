@@ -4,7 +4,7 @@ import React from 'react';
 const Projects = () => {
   return (
     <div id='yt-playlists-wrap' className='page-wrap'>
-      <h2>music projects on youtube</h2>
+      <h2>music projects on youtube/streaming services</h2>
       <div id='iframes-wrap'>
         <h4>um (MOMS BASEMENT SET) // uploaded 11/7/2024</h4>
         <iframe src="https://www.youtube.com/embed/bhZl2r4NbNQ?si=X8OUVWnLp16h2Mw4" title="um" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
