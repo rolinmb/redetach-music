@@ -11,6 +11,7 @@ const Blog = () => {
         <p>11/18/2024 :: rubber pencils suck, iykyk, lgtbrq charli i know the typa worq, iaintgoinanywhere</p>
         <p>11/19/2024 :: demons tryna get to me; need charli's angels to take me by tha hand so we can get this bred</p>
         <p>11/20/2024 :: we cookin wit antimatter nobody understands the typa vibes that r otw</p>
+        <p>11/21/2024 :: whats so bad about crashing out if everyone already knows everything about you</p>
       </div>
     </div>
   );
