@@ -1,0 +1,88 @@
+[debug] [2024-11-22T21:36:37.438Z] ----------------------------------------------------------------------
+[debug] [2024-11-22T21:36:37.440Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\rolin\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2024-11-22T21:36:37.440Z] CLI Version:   12.5.0
+[debug] [2024-11-22T21:36:37.440Z] Platform:      win32
+[debug] [2024-11-22T21:36:37.440Z] Node Version:  v18.14.1
+[debug] [2024-11-22T21:36:37.441Z] Time:          Fri Nov 22 2024 15:36:37 GMT-0600 (Central Standard Time)
+[debug] [2024-11-22T21:36:37.441Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-11-22T21:36:37.491Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-11-22T21:36:37.491Z] > authorizing via signed-in user (rolin.blake@gmail.com)
+[debug] [2024-11-22T21:36:37.491Z] [iam] checking project redetach-music for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-11-22T21:36:37.493Z] > refreshing access token with scopes: []
+[debug] [2024-11-22T21:36:37.494Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-11-22T21:36:37.494Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-11-22T21:36:37.746Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-11-22T21:36:37.746Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-11-22T21:36:37.751Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/redetach-music:testIamPermissions [none]
+[debug] [2024-11-22T21:36:37.751Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/redetach-music:testIamPermissions x-goog-quota-user=projects/redetach-music
+[debug] [2024-11-22T21:36:37.751Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/redetach-music:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-11-22T21:36:38.043Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/redetach-music:testIamPermissions 200
+[debug] [2024-11-22T21:36:38.044Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/redetach-music:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-11-22T21:36:38.044Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/redetach-music [none]
+[debug] [2024-11-22T21:36:38.515Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/redetach-music 200
+[debug] [2024-11-22T21:36:38.515Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/redetach-music {"projectId":"redetach-music","projectNumber":"1050797367777","displayName":"redetach-music","name":"projects/redetach-music","resources":{"hostingSite":"redetach-music"},"state":"ACTIVE","etag":"1_f1f02044-9af0-4bd4-bb97-7541517ab702"}
+[info] 
+[info] === Deploying to 'redetach-music'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2024-11-22T21:36:38.519Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/redetach-music/versions [none]
+[debug] [2024-11-22T21:36:38.519Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/redetach-music/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2024-11-22T21:36:39.311Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/redetach-music/versions 200
+[debug] [2024-11-22T21:36:39.311Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/redetach-music/versions {"name":"projects/1050797367777/sites/redetach-music/versions/905b649c72a6b4eb","status":"CREATED","config":{},"labels":{"deployment-tool":"cli-firebase"}}
+[info] i  hosting[redetach-music]: beginning deploy... 
+[info] i  hosting[redetach-music]: found 19 files in build 
+[debug] [2024-11-22T21:36:39.318Z] [hosting] uploading with 200 concurrency
+[info] i  hosting: hashing files [17/19] (89%) 
+[info] i  hosting: hashing files [18/19] (94%) 
+[debug] [2024-11-22T21:36:44.243Z] [hosting] hash cache [YnVpbGQ] stored for 19 files
+[debug] [2024-11-22T21:36:44.244Z] [hosting][hash queue][FINAL] {"max":4920,"min":1,"avg":427.36842105263156,"active":0,"complete":19,"success":19,"errored":0,"retried":0,"total":19,"elapsed":4923}
+[debug] [2024-11-22T21:36:44.245Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/1050797367777/sites/redetach-music/versions/905b649c72a6b4eb:populateFiles [none]
+[debug] [2024-11-22T21:36:44.245Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/1050797367777/sites/redetach-music/versions/905b649c72a6b4eb:populateFiles {"files":{"/404.html":"daa499dd96d8229e73235345702ba32f0793f0c8e5c0d30e40e37a5872be57aa","/logo192.png":"3ee59515172ee198f3be375979df15ac5345183e656720a381b8872b2a39dc8b","/manifest.json":"e8a12b6f4242e5dae3b66e6d135b8dcfe72a91c7dfc9ae9875180d287b017b46","/robots.txt":"bfe106a3fb878dc83461c86818bf74fc1bdc7f28538ba613cd3e775516ce8b49","/trial1_18.ico":"ae1b08b89f40c50849993e6d6605b43ac8497e119bec7cc4919c158465ce5cc2","/asset-manifest.json":"91a8005bb6ee8220000ed16fcb6925c92368118b809ff1650ab89e399948ace2","/index.html":"ebccd7baca5c0a64c050345eb913a975d7cf0e85ba489ccbe130c4bf4a71c391","/static/css/main.5df25e33.css":"3f449b22629057d375d20694674dc0abb18a5eb98e7a861e8cf7ca138cc85084","/static/css/main.5df25e33.css.map":"78c9d926cfddf6a4febf5f19d00a00cbc5480e27d14e5a6e74a1baa77ad11f43","/static/js/787.37c8faac.chunk.js":"441604a4c8721f392abd2f8aff7bac75a4965c89dfce4ce206d2f025e5e9a111","/static/js/787.37c8faac.chunk.js.map":"f6913502d5c1a7e78e415b946a8fcb7ca6f05cb52fb5b81cd494c482be2a55cd","/static/js/main.ea71cfa6.js.LICENSE.txt":"775603ad62df7df9aa90905f4af986bbd123065c4aad7bfde765658d86554597","/static/js/main.ea71cfa6.js":"70555e6abeb43e8428acc95046f687bccda44b3220fe1fb512f19beb702f5440","/static/media/new_0.1fe13206db72b550dd81.png":"2081bc9619a07950d59abaa34346c7841cf31d2f1092c9433e4482d2c9fbc259","/static/js/main.ea71cfa6.js.map":"6f415042d226cce473fe4e134c05d8c40866e25a8674ed8e5a30514cf87d4254","/static/media/new_9.95b85b1fbb315be6df71.png":"87d0fd6e99a77dd2f1e9f84066605061d4aa04aa495ee7b9f6607c845423cb43","/static/media/trial4_10232023_17b.f898a97ae8d99d6f441d.png":"b2f96a4f87e953ca72f92dccdd4429295284cd0ec429c7ac83a8329447923501","/sesh07172024_raw.mp3":"6e0c7912013fbec195ebef834bdc3abc5e64721673d03babd4104195f02b9d74","/dumbliveremixes2_11222024.mp3":"1e75fb857be69d7fc7c1de32249911c7918f48c40c918a7c7b8d1b244b697290"}}
+[debug] [2024-11-22T21:36:44.631Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/1050797367777/sites/redetach-music/versions/905b649c72a6b4eb:populateFiles 200
+[debug] [2024-11-22T21:36:44.632Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/1050797367777/sites/redetach-music/versions/905b649c72a6b4eb:populateFiles {"uploadRequiredHashes":["91a8005bb6ee8220000ed16fcb6925c92368118b809ff1650ab89e399948ace2","70555e6abeb43e8428acc95046f687bccda44b3220fe1fb512f19beb702f5440","ebccd7baca5c0a64c050345eb913a975d7cf0e85ba489ccbe130c4bf4a71c391","1e75fb857be69d7fc7c1de32249911c7918f48c40c918a7c7b8d1b244b697290","6e0c7912013fbec195ebef834bdc3abc5e64721673d03babd4104195f02b9d74","6f415042d226cce473fe4e134c05d8c40866e25a8674ed8e5a30514cf87d4254"],"uploadUrl":"https://upload-firebasehosting.googleapis.com/upload/sites/redetach-music/versions/905b649c72a6b4eb/files"}
+[debug] [2024-11-22T21:36:44.632Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/redetach-music/versions/905b649c72a6b4eb/files/91a8005bb6ee8220000ed16fcb6925c92368118b809ff1650ab89e399948ace2 [none]
+[debug] [2024-11-22T21:36:44.633Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/redetach-music/versions/905b649c72a6b4eb/files/91a8005bb6ee8220000ed16fcb6925c92368118b809ff1650ab89e399948ace2 [stream]
+[debug] [2024-11-22T21:36:44.633Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/redetach-music/versions/905b649c72a6b4eb/files/70555e6abeb43e8428acc95046f687bccda44b3220fe1fb512f19beb702f5440 [none]
+[debug] [2024-11-22T21:36:44.633Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/redetach-music/versions/905b649c72a6b4eb/files/70555e6abeb43e8428acc95046f687bccda44b3220fe1fb512f19beb702f5440 [stream]
+[debug] [2024-11-22T21:36:44.634Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/redetach-music/versions/905b649c72a6b4eb/files/ebccd7baca5c0a64c050345eb913a975d7cf0e85ba489ccbe130c4bf4a71c391 [none]
+[debug] [2024-11-22T21:36:44.634Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/redetach-music/versions/905b649c72a6b4eb/files/ebccd7baca5c0a64c050345eb913a975d7cf0e85ba489ccbe130c4bf4a71c391 [stream]
+[debug] [2024-11-22T21:36:44.635Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/redetach-music/versions/905b649c72a6b4eb/files/1e75fb857be69d7fc7c1de32249911c7918f48c40c918a7c7b8d1b244b697290 [none]
+[debug] [2024-11-22T21:36:44.635Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/redetach-music/versions/905b649c72a6b4eb/files/1e75fb857be69d7fc7c1de32249911c7918f48c40c918a7c7b8d1b244b697290 [stream]
+[debug] [2024-11-22T21:36:44.635Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/redetach-music/versions/905b649c72a6b4eb/files/6e0c7912013fbec195ebef834bdc3abc5e64721673d03babd4104195f02b9d74 [none]
+[debug] [2024-11-22T21:36:44.635Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/redetach-music/versions/905b649c72a6b4eb/files/6e0c7912013fbec195ebef834bdc3abc5e64721673d03babd4104195f02b9d74 [stream]
+[debug] [2024-11-22T21:36:44.636Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/redetach-music/versions/905b649c72a6b4eb/files/6f415042d226cce473fe4e134c05d8c40866e25a8674ed8e5a30514cf87d4254 [none]
+[debug] [2024-11-22T21:36:44.636Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/redetach-music/versions/905b649c72a6b4eb/files/6f415042d226cce473fe4e134c05d8c40866e25a8674ed8e5a30514cf87d4254 [stream]
+[debug] [2024-11-22T21:36:44.636Z] [hosting][populate queue][FINAL] {"max":390,"min":390,"avg":390,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":394}
+[debug] [2024-11-22T21:36:44.636Z] [hosting] uploads queued: 6
+[info] i  hosting: uploading new files [0/6] (0%) 
+[debug] [2024-11-22T21:36:45.690Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/redetach-music/versions/905b649c72a6b4eb/files/91a8005bb6ee8220000ed16fcb6925c92368118b809ff1650ab89e399948ace2 200
+[debug] [2024-11-22T21:36:45.690Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/redetach-music/versions/905b649c72a6b4eb/files/91a8005bb6ee8220000ed16fcb6925c92368118b809ff1650ab89e399948ace2 [stream]
+[debug] [2024-11-22T21:36:45.762Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/redetach-music/versions/905b649c72a6b4eb/files/70555e6abeb43e8428acc95046f687bccda44b3220fe1fb512f19beb702f5440 200
+[debug] [2024-11-22T21:36:45.762Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/redetach-music/versions/905b649c72a6b4eb/files/70555e6abeb43e8428acc95046f687bccda44b3220fe1fb512f19beb702f5440 [stream]
+[debug] [2024-11-22T21:36:45.810Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/redetach-music/versions/905b649c72a6b4eb/files/ebccd7baca5c0a64c050345eb913a975d7cf0e85ba489ccbe130c4bf4a71c391 200
+[debug] [2024-11-22T21:36:45.810Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/redetach-music/versions/905b649c72a6b4eb/files/ebccd7baca5c0a64c050345eb913a975d7cf0e85ba489ccbe130c4bf4a71c391 [stream]
+[debug] [2024-11-22T21:36:46.784Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/redetach-music/versions/905b649c72a6b4eb/files/6f415042d226cce473fe4e134c05d8c40866e25a8674ed8e5a30514cf87d4254 200
+[debug] [2024-11-22T21:36:46.784Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/redetach-music/versions/905b649c72a6b4eb/files/6f415042d226cce473fe4e134c05d8c40866e25a8674ed8e5a30514cf87d4254 [stream]
+[info] i  hosting: uploading new files [4/6] (66%) 
+[info] i  hosting: uploading new files [4/6] (66%) 
+[info] i  hosting: uploading new files [4/6] (66%) 
+[info] i  hosting: uploading new files [4/6] (66%) 
+[info] i  hosting: uploading new files [4/6] (66%) 
+[info] i  hosting: uploading new files [4/6] (66%) 
+[info] i  hosting: uploading new files [4/6] (66%) 
+[info] i  hosting: uploading new files [4/6] (66%) 
+[info] i  hosting: uploading new files [4/6] (66%) 
+[info] i  hosting: uploading new files [4/6] (66%) 
+[info] i  hosting: uploading new files [4/6] (66%) 
+[info] i  hosting: uploading new files [4/6] (66%) 
+[info] i  hosting: uploading new files [4/6] (66%) 
+[info] i  hosting: uploading new files [4/6] (66%) 
+[info] i  hosting: uploading new files [4/6] (66%) 
+[info] i  hosting: uploading new files [4/6] (66%) 
+[info] i  hosting: uploading new files [4/6] (66%) 
+[info] i  hosting: uploading new files [4/6] (66%) 
+[info] i  hosting: uploading new files [4/6] (66%) 
+[info] i  hosting: uploading new files [4/6] (66%) 
+[info] i  hosting: uploading new files [4/6] (66%) 
+[info] i  hosting: uploading new files [4/6] (66%) 
