@@ -13,7 +13,7 @@ const Blog = () => {
         <p>11/20/2024 :: we cookin wit antimatter nobody understands the typa vibes that r otw</p>
         <p>11/21/2024 :: whats so bad about crashing out if everyone already knows everything about you</p>
         <p>11/22/2024 :: i guess yall just had 2 rlly b there smh</p>
-        <p>11/23/2024 :: shoutout saint michael, also might just runnit baq this morning</p>
+        <p>11/23/2024 :: shoutout saint michael, also might just runnit baq this morning. hopefully my parents waste the cops time and resources again stopping me.</p>
       </div>
     </div>
   );
