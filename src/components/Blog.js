@@ -14,6 +14,7 @@ const Blog = () => {
         <p>11/21/2024 :: whats so bad about crashing out if everyone already knows everything about you</p>
         <p>11/22/2024 :: i guess yall just had 2 rlly b there smh</p>
         <p>11/23/2024 :: shoutout saint michael, also might just runnit baq this morning. hopefully my parents waste the cops time and resources again stopping me.</p>
+        <p>              also I think the recent dumb live remixes 3 set might not be loading properly on my site... we'll see if it ever shows up and/or if yall continue to show up ♥</p>
       </div>
     </div>
   );

@@ -1,0 +1,37 @@
+#blog-wrap {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #ff7eb3, #fec8d8, #a2a6f1, #98d1e4, #d4a5a5);
+    background-size: 400% 400%;
+    animation: gradientFade 10s infinite;
+  }
+  
+  @keyframes gradientFade {
+    0% {
+      background-position: 0% 50%; /* Start from one position */
+    }
+    50% {
+      background-position: 100% 50%; /* Move gradient to a different position */
+    }
+    100% {
+      background-position: 0% 50%; /* Return to the start position */
+    }
+  }
+  
+  #blog-header-wrap {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  }
+  
+  #blog-body-wrap p {
+    margin: 10px 0;
+    color: #000;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+  }

@@ -1,0 +1,37 @@
+#shows-wrap {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #000; /* White text for contrast */
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8); /* Glow for readability */
+    font-size: 1.5rem;
+    background: radial-gradient(circle, #ff6f91, #71b1ff, #ff5f92, #c971f9);
+    background-size: 200% 200%;
+    animation: trippyPulse 6s infinite alternate ease-in-out;
+  }
+  
+@keyframes trippyPulse {
+    0% {
+      background-position: 0% 50%;
+      background-size: 150%;
+    }
+    25% {
+      background-position: 50% 0%;
+      background-size: 170%;
+    }
+    50% {
+      background-position: 100% 50%;
+      background-size: 190%;
+    }
+    75% {
+      background-position: 50% 100%;
+      background-size: 170%;
+    }
+    100% {
+      background-position: 0% 50%;
+      background-size: 150%;
+    }
+}
