@@ -6,6 +6,10 @@ const Projects = () => {
     <div id='yt-playlists-wrap' className='page-wrap'>
       <h2>music projects on youtube/streaming services</h2>
       <div id='iframes-wrap'>
+        <h4>dumb live remixes set 3 // uploaded 11/23/2024</h4>
+        <audio controls>
+          <source src="dumbliveremixes3_11232024.mp3" type="auido/mpeg" />
+        </audio>
         <h4>dumb live remixes set 2 // uploaded 11/22/2024</h4>
         <audio controls>
           <source src="dumbliveremixes2_11222024.mp3" type="audio/mpeg" />
