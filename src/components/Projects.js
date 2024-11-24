@@ -4,24 +4,12 @@ import React from 'react';
 const Projects = () => {
   return (
     <div id='yt-playlists-wrap' className='page-wrap'>
-      <h2>music projects on youtube/streaming services</h2>
+      <h2>music projects on youtube</h2>
       <div id='iframes-wrap'>
-        <h4>dumb live remixes set 3 // uploaded 11/23/2024</h4>
-        <audio controls>
-          <source src="dumbliveremixes3_11232024.mp3" type="auido/mpeg" />
-        </audio>
-        <h4>dumb live remixes set 2 // uploaded 11/22/2024</h4>
-        <audio controls>
-          <source src="dumbliveremixes2_11222024.mp3" type="audio/mpeg" />
-        </audio>
         <h4>um (MOMS BASEMENT SET) // uploaded 11/7/2024</h4>
         <iframe src="https://www.youtube.com/embed/bhZl2r4NbNQ?si=X8OUVWnLp16h2Mw4" title="um" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <h4>defense mechanism // uploaded 10/17/2024</h4>
         <iframe src="https://www.youtube.com/embed/lL0nKe9KTOE?si=fjk5PuYeh57bTRE3" title="defense mechanism" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <h4>dumb live remixes set 1 // uploaded 7/17/2024</h4>
-        <audio controls>
-          <source src="sesh07172024_raw.mp3" type="audio/mpeg" />
-        </audio>
         <h4>cognitive dissonance // uploaded 6/5/2024</h4>
         <iframe src="https://www.youtube.com/embed/9qhxvALfs78?si=kjVL4aI2B9QQ-rQ9" title="cognitive dissonance" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <h4>get what you deserve // uploaded 2/4/2024</h4>

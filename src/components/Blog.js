@@ -14,7 +14,7 @@ const Blog = () => {
         <p>11/21/2024 :: whats so bad about crashing out if everyone already knows everything about you</p>
         <p>11/22/2024 :: i guess yall just had 2 rlly b there smh</p>
         <p>11/23/2024 :: shoutout saint michael, also might just runnit baq this morning. hopefully my parents waste the cops time and resources again stopping me</p>
-        <p>11/24/2024 :: welcome to new hollywood</p>
+        <p>11/24/2024 :: welcome to new hollywood. dumb live remixes should all be on soundcloud by eod hopefully.</p>
       </div>
     </div>
   );
