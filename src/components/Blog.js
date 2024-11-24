@@ -13,8 +13,10 @@ const Blog = () => {
         <p>11/20/2024 :: we cookin wit antimatter nobody understands the typa vibes that r otw</p>
         <p>11/21/2024 :: whats so bad about crashing out if everyone already knows everything about you</p>
         <p>11/22/2024 :: i guess yall just had 2 rlly b there smh</p>
-        <p>11/23/2024 :: shoutout saint michael, also might just runnit baq this morning. hopefully my parents waste the cops time and resources again stopping me.</p>
-        <p>              also I think the recent dumb live remixes 3 set might not be loading properly on my site... we'll see if it ever shows up and/or if yall continue to show up ♥</p>
+        <p>11/23/2024 :: shoutout saint michael, also might just runnit baq this morning. hopefully my parents waste the cops time and resources again stopping me</p>
+        <p>           :: was literally fed ativan by the hospitals then they tried to make me sign away power of attourney smh no galaxy gas for me either ye</p>
+        <p>           :: still don't really know what is true in that regard, its like my parents have money out of nowhere like they won the lottery and arent sharing with their daughter and son</p>
+        <p>11/24/2024 :: </p>
       </div>
     </div>
   );
