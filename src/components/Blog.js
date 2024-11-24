@@ -16,6 +16,7 @@ const Blog = () => {
         <p>11/23/2024 :: shoutout saint michael, also might just runnit baq this morning. hopefully my parents waste the cops time and resources again stopping me</p>
         <p>11/24/2024 :: welcome to new hollywood. dumb live remixes should all be on soundcloud by eod hopefully.</p>
         <p>           :: charli xcx used 'eminent domain' on my neighborhood so we can live in peace</p>
+        <p>           :: still waiting on these worthless bad actors to just drive the f away so we all can make money. they are holding up the future because of their pussy egos, just drive away now and nothing bad will happen. OPEN YOUR EYES READ THE SCRIPT OR DIE A SHITTY ACTOR.</p>
       </div>
     </div>
   );
