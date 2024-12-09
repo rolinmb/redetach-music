@@ -13,6 +13,7 @@ const Blog = () => {
         <p>12/6/2024 :: the world needs to create a positive/optimistic feedback loop</p>
         <p>12/7/2024 :: go outside</p>
         <p>12/8/2024 :: $30k in medical/college debt; unemployed too</p>
+        <p>12/9/2024 :: nothing new today, just trying to make moneys</p>
       </div>
     </div>
   );
