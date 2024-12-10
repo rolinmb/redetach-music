@@ -14,6 +14,7 @@ const Blog = () => {
         <p>12/7/2024 :: go outside</p>
         <p>12/8/2024 :: $17.5k in medical debt; $20k in college debt; unemployed too</p>
         <p>12/9/2024 :: all my iphone notes got magically deleted xd idgaf if im used as propaganda, just make sure i get paid asap</p>
+        <p>12/10/2024 :: if you havent checked out my live remixes on my soundcloud you're missing out</p>
       </div>
     </div>
   );
