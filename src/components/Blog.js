@@ -10,6 +10,7 @@ const Blog = () => {
       <div id='blog-body-wrap'>
         <p>12/13/2024 :: working on vocals lately</p>
         <p>12/14/2024 :: my next project will have some songs with lyrics and some just instrumentals like um (MOMS BASEMENT SET)</p>
+        <p>12/15/2024 :: who cares about crashing out if internet privacy is already a joke</p>
       </div>
     </div>
   );
