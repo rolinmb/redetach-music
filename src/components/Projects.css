@@ -8,19 +8,29 @@
   margin: 0;
 }
 
-#iframes-wrap {
+.iframes-wrap {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-#iframes-wrap h4 {
+#iframes-wrap-yt h4 {
   background-color: white;
 }
 
-#iframes-wrap iframe {
+#iframes-wrap-yt iframe {
   width: 560px;
   height: 315px;
+  margin: 10px 0;
+}
+
+#iframes-wrap-sc h4 {
+  background-color: white;
+}
+
+#iframes-wrap-sc iframe {
+  width: 560px;
+  height: 175px;
   margin: 10px 0;
 }
 

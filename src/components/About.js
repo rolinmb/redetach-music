@@ -11,7 +11,7 @@ const About = () => {
         <p>OBS</p>
         <p>Davinci Resolve</p>
         <div>
-          <p>I use my own iphone 8 photos & videos with custom ffmpeg +</p>
+          <p>I use my own iphone photos & videos with custom ffmpeg +</p>
           <p>golang / rust / javascript / python algorithms to generate:</p>
           <ul id="about-media-list">
             <li>music promo</li>
