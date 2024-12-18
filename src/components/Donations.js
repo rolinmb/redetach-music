@@ -12,18 +12,6 @@ const Donations = () => {
           <h3>Bitcoin (BTC)</h3>
           <QRCodeCanvas value={btcAddress} size={128} />
         </div>
-        <div className="donation-option">
-          <h3>Venmo</h3>
-          <a href="https://venmo.com/u/Rolin-Blake">https://venmo.com/u/Rolin-Blake</a>
-        </div>
-        <div className="donation-option">
-          <h3>PayPal</h3>
-          <a href="https://paypal.com/RolinBlake">https://paypal.com/RolinBlake</a>
-        </div>
-        <div href="donation-option">
-          <h3>Robinhood Referral Link</h3>
-          <a href="https://join.robinhood.com/rolinmb">https://join.robinhood.com/rolinmb</a>
-        </div>
       </div>
     </div>
   );
