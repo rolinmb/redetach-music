@@ -15,6 +15,7 @@ const Blog = () => {
         <p>12/17/2024 :: streaming making new music whenever i find motivation</p>
         <p>12/18/2024 :: made some more dance/house style beats lately, added some guitar and it ended up neat</p>
         <p>12/19/2024 :: zynbabwe is my current location</p>
+        <p>12/21/2024 :: im not a rapper</p>
       </div>
     </div>
   );
