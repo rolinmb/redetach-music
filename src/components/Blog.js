@@ -17,6 +17,7 @@ const Blog = () => {
         <p>12/19/2024 :: zynbabwe is my current location</p>
         <p>12/21/2024 :: im not a rapper</p>
         <p>12/22/2024 :: i forgot chick fil a is closed today smh; also the title of my next project is 'positive feedback loop'</p>
+        <p>12/23/2024 :: shoutout dylan brady and starboy</p>
       </div>
     </div>
   );
