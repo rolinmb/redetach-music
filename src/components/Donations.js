@@ -17,7 +17,7 @@ const TrippyCanvas = () => {
       const { width, height } = canvas;
 
       // Clear the canvas slightly for trailing effect
-      ctx.fillStyle = 'rgba(0, 0, 0, 0.1)';
+      ctx.fillStyle = 'white';
       ctx.fillRect(0, 0, width, height);
 
       // Lissajous curve parameters
