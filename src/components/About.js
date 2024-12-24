@@ -20,8 +20,8 @@ const About = () => {
             <li>music videos</li>
           </ul>
         </div>
-        <p>All artwork on social media profiles, pages, this website</p>
-        <p>videos, and albums/EPs created by me</p>
+        <p>All artwork on social media profiles, pages, this website,</p>
+        <p>art used in videos, and albums/EP artwork created by me</p>
       </div>
     </div>
   );
