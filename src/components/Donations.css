@@ -5,6 +5,7 @@
   
   #donations-wrap {
     text-align: center;
+    position: relative;
   }
   
   .donation-option {
