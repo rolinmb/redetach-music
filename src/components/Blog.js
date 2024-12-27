@@ -21,6 +21,7 @@ const Blog = () => {
         <p>12/24/2024 :: coffee got me tweakin this xmas eve</p>
         <p>12/25/2024 :: the project after 'positive feedback loop' is going to be more EDM-like</p>
         <p>12/26/2024 :: gotta take a caffeine dump from this coronation tea and coffee</p>
+        <p>12/27/2024 :: my meds make me feel like im on molly sometimes at random</p>
       </div>
     </div>
   );
