@@ -25,6 +25,7 @@ const Blog = () => {
         <p>12/28/2024 :: but im not a rapper</p>
         <p>12/29/2024 :: my shi sound good on my iphone</p>
         <p>12/30/2024 :: i like distortion</p>
+        <p>12/31/2024 :: merry noot years eve</p>
       </div>
     </div>
   );
