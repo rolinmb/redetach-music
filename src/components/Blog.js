@@ -27,6 +27,7 @@ const Blog = () => {
         <p>12/30/2024 :: i like distortion</p>
         <p>12/31/2024 :: merry noot years eve</p>
         <p>1/1/2025   :: happy newt yearst</p>
+        <p>1/2/2025   :: hate when it warms up then gets cold again</p>
       </div>
     </div>
   );
