@@ -3,11 +3,12 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: felx-start;
   align-items: center;
   background: linear-gradient(45deg, #ff7eb3, #fec8d8, #a2a6f1, #98d1e4, #d4a5a5);
   background-size: 400% 400%;
   animation: gradientFade 10s infinite;
+  overflow: hidden;
 }
   
 @keyframes gradientFade {
@@ -28,7 +29,14 @@
   color: #000;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 }
-  
+
+#blog-body-wrap {
+  width: 90%;
+  max-height: calc(100vh - 150px);
+  overflow-y: auto;
+  padding: 10px;
+}
+
 #blog-body-wrap p {
   margin: 10px 0;
   color: #000;
