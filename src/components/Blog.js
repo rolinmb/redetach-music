@@ -30,6 +30,7 @@ const Blog = () => {
         <p>1/2/2025   :: hate when it warms up then gets cold again</p>
         <p>1/3/2025   :: how are you doing? let me know. hope youre doing goodly.</p>
         <p>1/4/2025   :: sadge but the music is ready</p>
+        <p>1/5/2025   :: the worst thing ever is unkowingly wasting your time or having it be wasted by indecisive people</p>
       </div>
     </div>
   );
