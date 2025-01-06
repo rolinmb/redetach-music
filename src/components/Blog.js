@@ -31,6 +31,7 @@ const Blog = () => {
         <p>1/3/2025   :: how are you doing? let me know. hope youre doing goodly.</p>
         <p>1/4/2025   :: sadge but the music is ready</p>
         <p>1/5/2025   :: the worst thing ever is unkowingly wasting your time or having it be wasted by indecisive people</p>
+        <p>1/6/2025   :: been on a rice crispy grind lately</p>
       </div>
     </div>
   );
