@@ -33,6 +33,7 @@ const Blog = () => {
         <p>1/5/2025   :: the worst thing ever is unkowingly wasting your time or having it be wasted by indecisive people</p>
         <p>1/6/2025   :: been on a rice crispy grind lately</p>
         <p>1/7/2025   :: thinking bout dropping 'positive feedback loop' next week</p>
+        <p>1/8/2025   :: still mad at charli</p>
       </div>
     </div>
   );
