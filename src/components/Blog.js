@@ -34,6 +34,7 @@ const Blog = () => {
         <p>1/6/2025   :: been on a rice crispy grind lately</p>
         <p>1/7/2025   :: thinking bout dropping 'positive feedback loop' next week</p>
         <p>1/8/2025   :: still mad at charli</p>
+        <p>1/9/2025   :: i laugh too hard when trying to listen to my own lyrics but im gonna put them out anyway</p>
       </div>
     </div>
   );
