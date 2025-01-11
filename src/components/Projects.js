@@ -6,21 +6,32 @@ const Projects = () => {
     <div id='yt-playlists-wrap' className='page-wrap'>
       <h2>dumb live remix sets on soundcloud</h2>
       <div id='iframes-wrap-sc'>
+        <h4>set 10 // 1/11/2025</h4>
+        <h5>playlist <a href="https://youtube.com/playlist?list=PL411TIk1YJznLMzK2JUrL486FSiWkfdJY&feature=shared">here</a></h5>
+        <iframe frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2006976227&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
         <h4>set 9 // 12/11/2024</h4>
+        <h5>playlist: check my soundcloud likes</h5>
         <iframe frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1981309703&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
         <h4>set 8 // 12/10/2024</h4>
+        <h5>playlist: check my soundcloud likes</h5>
         <iframe frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1979540515&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
         <h4>set 7 // 12/9/2024</h4>
+        <h5>playlist: check my soundcloud likes</h5>
         <iframe frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1979242711&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
         <h4>set 6 // 12/8/2024</h4>
+        <h5>playlist: check my soundcloud likes</h5>
         <iframe frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1977776839&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
         <h4>set 5 // 12/7/2024</h4>
+        <h5>playlist <a href="https://youtube.com/playlist?list=PL411TIk1YJzmznndUi7tkKSf5NVJZMinz&feature=shared">here</a></h5>
         <iframe frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1976094671&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
         <h4>set 4 // 11/24/2024</h4>
+        <h5>playlist <a href="https://youtube.com/playlist?list=PL411TIk1YJzlKSk8sF448Foj1CUp8LGY4&feature=shared">here</a></h5>
         <iframe frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1975608011&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
         <h4>set 3 // 11/23/2024</h4>
+        <h5>playlist <a href="https://youtube.com/playlist?list=PL411TIk1YJzkg1AVSct-TLvoVllGoSmDT&feature=shared">here</a></h5>
         <iframe frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1975601383&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
         <h4>set 2 // 11/22/2024</h4>
+        <h5>playlist <a href="https://youtube.com/playlist?list=PL411TIk1YJzlUZjblB2FHHAEoPn9GdGP8&feature=shared">here</a></h5>
         <iframe frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1975597459&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
         <h4>set 1 // 7/17/2023</h4>
         <iframe frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1965861299&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
@@ -30,6 +41,7 @@ const Projects = () => {
         <h4>liquify // uploaded 12/7/2024</h4>
         <iframe src="https://www.youtube.com/embed/HQejARlTeuA?si=4ql_O_P7fO0ZpHXn" title="liquify" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <h4>redetach remixes set 2 // uploaded 12/5/2024</h4>
+        <h5>playlist <a href="https://youtube.com/playlist?list=PL411TIk1YJzkVy0J-CFSbb52Pg2iebcXi&feature=shared">here</a></h5>
         <iframe src="https://www.youtube.com/embed/EZJqeKxokuw?si=7hYqkaQEQiWb08mT" title="redetach remixes set 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <h4>um (MOMS BASEMENT SET) // uploaded 11/7/2024</h4>
         <iframe src="https://www.youtube.com/embed/bhZl2r4NbNQ?si=X8OUVWnLp16h2Mw4" title="um" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
