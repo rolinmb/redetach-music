@@ -37,6 +37,7 @@ const Blog = () => {
         <p>1/9/2025   :: i laugh too hard when trying to listen to my own lyrics but im gonna put them out anyway</p>
         <p>1/10/2025  :: i dont think yall are ready for this music</p>
         <p>1/11/2025  :: need to workout more</p>
+        <p>1/12/2025  :: worked out yesterday, will I do it again today?</p>
       </div>
     </div>
   );
