@@ -38,6 +38,7 @@ const Blog = () => {
         <p>1/10/2025  :: i dont think yall are ready for this music</p>
         <p>1/11/2025  :: need to workout more</p>
         <p>1/12/2025  :: worked out yesterday, will I do it again today?</p>
+        <p>1/23/2025  :: didnt work out just ate a lotta food</p>
       </div>
     </div>
   );
