@@ -41,6 +41,7 @@ const Blog = () => {
         <p>1/13/2025  :: didnt work out just ate a lotta food</p>
         <p>1/14/2025  :: 'positive feedback loop' drops 1/17/2025 (Friday) at Midnight CST</p>
         <p>1/15/2025  :: regretti</p>
+        <p>1/16/2025  :: but never forgetti</p>
       </div>
     </div>
   );
