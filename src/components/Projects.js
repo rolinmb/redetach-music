@@ -38,6 +38,8 @@ const Projects = () => {
       </div>
       <h2>music projects on youtube</h2>
       <div id='iframes-wrap-yt'>
+        <h4>positive feedback loop // uploaded 1/17/2025</h4>
+        <iframe src="https://www.youtube.com/embed/videoseries?si=sD3qMq8og3-aIYFO&amp;list=PL411TIk1YJzkPXte2Uv4FXOWu-q7LvYU-" title="positive feedback loop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <h4>liquify // uploaded 12/7/2024</h4>
         <iframe src="https://www.youtube.com/embed/HQejARlTeuA?si=4ql_O_P7fO0ZpHXn" title="liquify" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <h4>redetach remixes set 2 // uploaded 12/5/2024</h4>
