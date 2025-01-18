@@ -43,6 +43,7 @@ const Blog = () => {
         <p>1/15/2025  :: regretti</p>
         <p>1/16/2025  :: but never forgetti</p>
         <p>1/17/2025  :: positive feedback loop now on my website, on youtube as a playlist, and on soundcloud very soon</p>
+        <p>1/18/2025  :: so many likes on one of my videos thank yous</p>
       </div>
     </div>
   );
