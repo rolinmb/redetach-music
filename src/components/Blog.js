@@ -46,6 +46,7 @@ const Blog = () => {
         <p>1/18/2025  :: so many likes on one of my videos thank yous</p>
         <p>1/19/2025  :: keep listening to my musiq i dare you</p>
         <p>1/20/2025  :: the name of my next project is 'reflect'</p>
+        <p>1/21/2025  :: grimey</p>
       </div>
     </div>
   );
