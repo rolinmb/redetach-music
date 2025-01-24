@@ -49,6 +49,7 @@ const Blog = () => {
         <p>1/21/2025  :: grimey</p>
         <p>1/22/2025  :: espresso ❤️ (not the sabrinah carpenter shi)</p>
         <p>1/23/2025  :: halfway to my birthday</p>
+        <p>1/24/2025  :: time to bloom soon</p>
       </div>
     </div>
   );
