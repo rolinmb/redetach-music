@@ -6,6 +6,10 @@ const Projects = () => {
     <div id='yt-playlists-wrap' className='page-wrap'>
       <h2>dumb live remix sets on soundcloud</h2>
       <div id='iframes-wrap-sc'>
+        <h4>set 12 // 1/27/2025</h4>
+        <iframe frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2019608825&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+        <h5>playlist <a href="https://youtube.com/playlist?list=PL411TIk1YJzk1xJE9yELR70zpxL-JtY0g&feature=shared">here</a></h5>
+        <h5>livestream <a href="https://www.youtube.com/live/J-fh7ITAbWM?feature=shared">here</a></h5>
         <h4>set 11 // 1/17/2025</h4>
         <iframe frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2011491595&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
         <h4>set 10 // 1/11/2025</h4>
