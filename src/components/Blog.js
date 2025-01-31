@@ -56,6 +56,7 @@ const Blog = () => {
         <p>1/28/2025  :: ahead of my time</p>
         <p>1/29/2025  :: thinking of dropping 'reflect' at the beginning of March</p>
         <p>1/30/2025  :: johnny blaze @ rise the man</p>
+        <p>1/31/2025  :: gonna live stream on youtube i thinks</p>
       </div>
     </div>
   );
