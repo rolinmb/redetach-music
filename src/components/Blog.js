@@ -57,6 +57,7 @@ const Blog = () => {
         <p>1/29/2025  :: thinking of dropping 'reflect' at the beginning of March</p>
         <p>1/30/2025  :: johnny blaze @ rise the man</p>
         <p>1/31/2025  :: gonna live stream on youtube i thinks</p>
+        <p>2/1/2025   :: welcome to feb wit me; new yt short dropped</p>
       </div>
     </div>
   );
