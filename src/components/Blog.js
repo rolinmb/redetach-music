@@ -61,6 +61,7 @@ const Blog = () => {
         <p>2/2/2025   :: gonna have to rewrite the entire site eventually</p>
         <p>2/3/2025   :: 4 espressos today 😤</p>
         <p>2/4/2025   :: 5 espressos today 😱</p>
+        <p>2/5/2025   :: 2 espressos 2day :i</p>
       </div>
     </div>
   );
