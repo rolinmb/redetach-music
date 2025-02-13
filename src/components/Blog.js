@@ -68,6 +68,7 @@ const Blog = () => {
         <p>2/9/2025   :: going to be taking a break from livestreaming soon</p>
         <p>2/10/2025  :: go check out my livestream vods on my youtube channel tho</p>
         <p>2/11/2025  :: listening to underscores lately</p>
+        <p>2/13/2025  :: phone interview today yay</p>
       </div>
     </div>
   );
