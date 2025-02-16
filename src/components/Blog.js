@@ -71,6 +71,7 @@ const Blog = () => {
         <p>2/13/2025  :: phone interview today yay</p>
         <p>2/14/2025  :: alonest this valentinest dayt</p>
         <p>2/15/2025  :: teaser dropping today</p>
+        <p>2/16/2025  :: been lifting again getting stronk</p>
       </div>
     </div>
   );
