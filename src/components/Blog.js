@@ -76,6 +76,7 @@ const Blog = () => {
         <p>2/18/2025  :: teaser at midnight this friday at midnight then 'reflect' dropping mar 7th</p>
         <p>2/19/2025  :: interview today :o</p>
         <p>2/20/2025  :: last teaser this week then going dark next week</p>
+        <p>2/26/2025  :: having a really hard time without her lately. excited for this new music but really need to figure some things out in this next chapter.</p>
       </div>
     </div>
   );
