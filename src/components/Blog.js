@@ -8,7 +8,7 @@ const Blog = () => {
         <h3>the blog</h3>
       </div>
       <div id='blog-body-wrap'>
-        <p>12/13/2024 :: working on vocals lately</p>
+        {/*<p>12/13/2024 :: working on vocals lately</p>
         <p>12/14/2024 :: the next project will have some songs with lyrics and some just instrumentals like um (MOMS BASEMENT SET)</p>
         <p>12/15/2024 :: who cares about crashing out if internet privacy is already a joke</p>
         <p>12/16/2024 :: 8 songs on the next project, still figuring out a project title</p>
@@ -77,7 +77,8 @@ const Blog = () => {
         <p>2/19/2025  :: interview today :o</p>
         <p>2/20/2025  :: last teaser this week then going dark next week</p>
         <p>2/26/2025  :: having a really hard time without her lately. excited for this new music but really need to figure some things out in this next chapter.</p>
-      </div>
+          */}<p>4/2/2025 :: holup</p>
+        </div>
     </div>
   );
 }

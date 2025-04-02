@@ -44,8 +44,10 @@ const Projects = () => {
       </div>
       <h2>music projects on youtube</h2>
       <div id='iframes-wrap-yt'>
+        <h4>reflect // uploaded 3/6/2025</h4>
+        <iframe src="https://www.youtube.com/embed/videoseries?si=2OxM1qYlid1fn-gd&amp;list=PL411TIk1YJzn514WGdncMbRbHUWGxWPg0" title="reflect" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <h4>charli xcx summoning ritual // streamed 1/28/2025</h4>
-        <iframe src="https://www.youtube.com/embed/zpWtc4LVysI?si=cLvG2ntTXysU5C4X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/zpWtc4LVysI?si=cLvG2ntTXysU5C4X" title="charlixcx" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <h4>positive feedback loop // uploaded 1/17/2025</h4>
         <iframe src="https://www.youtube.com/embed/videoseries?si=sD3qMq8og3-aIYFO&amp;list=PL411TIk1YJzkPXte2Uv4FXOWu-q7LvYU-" title="positive feedback loop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <h4>liquify // uploaded 12/7/2024</h4>
