@@ -5,7 +5,7 @@ import Projects from './components/Projects';
 import About from './components/About';
 import Blog from './components/Blog';
 import Shows from './components/Shows';
-import Donations from './components/Donations';
+//import Donations from './components/Donations';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
 

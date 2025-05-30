@@ -6,21 +6,6 @@ const Projects = () => {
     <div id='yt-playlists-wrap' className='page-wrap'>
       <h2>dumb live remix sets on soundcloud</h2>
       <div id='iframes-wrap-sc'>
-        <h4>set 12 // 1/27/2025</h4>
-        <iframe frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2019608825&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-        <h5>playlist <a href="https://youtube.com/playlist?list=PL411TIk1YJzk1xJE9yELR70zpxL-JtY0g&feature=shared">here</a></h5>
-        <h5>livestream <a href="https://www.youtube.com/live/J-fh7ITAbWM?feature=shared">here</a></h5>
-        <h4>set 11 // 1/17/2025</h4>
-        <iframe frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2011491595&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-        <h4>set 10 // 1/11/2025</h4>
-        <h5>playlist <a href="https://youtube.com/playlist?list=PL411TIk1YJznLMzK2JUrL486FSiWkfdJY&feature=shared">here</a></h5>
-        <iframe frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2006976227&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-        <h4>set 9 // 12/11/2024</h4>
-        <h5>playlist: check my soundcloud likes</h5>
-        <iframe frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1981309703&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-        <h4>set 8 // 12/10/2024</h4>
-        <h5>playlist: check my soundcloud likes</h5>
-        <iframe frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1979540515&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
         <h4>set 7 // 12/9/2024</h4>
         <h5>playlist: check my soundcloud likes</h5>
         <iframe frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1979242711&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
@@ -46,12 +31,10 @@ const Projects = () => {
       <div id='iframes-wrap-yt'>
         <h4>reflect // uploaded 3/6/2025</h4>
         <iframe src="https://www.youtube.com/embed/videoseries?si=2OxM1qYlid1fn-gd&amp;list=PL411TIk1YJzn514WGdncMbRbHUWGxWPg0" title="reflect" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <h4>charli xcx summoning ritual // streamed 1/28/2025</h4>
-        <iframe src="https://www.youtube.com/embed/zpWtc4LVysI?si=cLvG2ntTXysU5C4X" title="charlixcx" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <h4>positive feedback loop // uploaded 1/17/2025</h4>
         <iframe src="https://www.youtube.com/embed/videoseries?si=sD3qMq8og3-aIYFO&amp;list=PL411TIk1YJzkPXte2Uv4FXOWu-q7LvYU-" title="positive feedback loop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <h4>liquify // uploaded 12/7/2024</h4>
-        <iframe src="https://www.youtube.com/embed/HQejARlTeuA?si=4ql_O_P7fO0ZpHXn" title="liquify" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/rHyXpiN9Zsg?si=XfCWw4J5S2unhkE7" title="liquifyr" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <h4>redetach remixes set 2 // uploaded 12/5/2024</h4>
         <h5>playlist <a href="https://youtube.com/playlist?list=PL411TIk1YJzkVy0J-CFSbb52Pg2iebcXi&feature=shared">here</a></h5>
         <iframe src="https://www.youtube.com/embed/EZJqeKxokuw?si=7hYqkaQEQiWb08mT" title="redetach remixes set 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
